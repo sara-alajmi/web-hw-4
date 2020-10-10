@@ -1,1 +1,41 @@
 /* 🎓 تحت هذا التعليق أتحفونا بتصاميمكم التي تليق بقدر حاسبة الدرجات */
+
+body {
+    background-color: #fffffc;
+}
+
+/* .wrapper {
+    text-align: center;
+    color: #7400b8;
+    font-size: xx-large;
+
+    
+} */
+
+
+.wrapper {
+   
+    text-align: center;
+    font-size: xx-large; 
+   color: #7400b8;
+   position: relative;
+  height: 600px;
+
+   margin-left: 250px;
+   margin-right: 250px;
+   
+  animation: mymove 7s infinite;
+}
+
+@keyframes mymove {
+    0% {background-color:#fffffc; left:0px; top:0px;}
+    10% {background-color:#ffc6ff; left:0px; top:0px;}
+    20% {background-color:#bdb2ff; left:0px; top:0px;}
+    30% {background-color:#a0c4ff; left:0px; top:0px;}
+    40% {background-color:#9bf6ff; left:0px; top:0px;}
+    50% {background-color:#caffbf; left:0px; top:0px;}
+    60% {background-color:#fdffb6; left:0px; top:0px;}
+    70% {background-color:#ffd6a5; left:0px; top:0px;}
+    80% {background-color:#ffadad; left:0px; top:0px;}
+    
+  }
